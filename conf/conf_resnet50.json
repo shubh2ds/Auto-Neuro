@@ -1,0 +1,17 @@
+{
+	"model"           : "resnet50",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "/home/ubuntu/common_volume/Work_Space/Projects/NIH_classification/dataset",
+	"test_path"		  : "/home/ubuntu/common_volume/Work_Space/Projects/NIH_classification/test",
+	"features_path"   : "output/NIH_data/resnet50/resnet50_features.h5",
+	"labels_path"     : "output/NIH_data/resnet50/resnet50_labels.h5",
+	"results"         : "output/NIH_data/resnet50/clf_results.txt",
+	"classifier_path" : "output/NIH_data/resnet50/clf.pickle",
+	"model_path"	  : "output/NIH_data/resnet50/resnet50_model",
+
+	"test_size"       : 0.10,
+	"seed"            : 9,
+	"num_classes"     : 12
+}

@@ -1,0 +1,17 @@
+{
+	"model"           : "vgg16",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "/home/ubuntu/common_volume/Work_Space/Projects/1_Train_clf_from_cnn_features/dataset/train",
+	"test_path"		  : "/home/ubuntu/common_volume/Work_Space/Projects/1_Train_clf_from_cnn_features/dataset/test",
+	"features_path"   : "output/flowers_17/vgg16/vgg16_features.h5",
+	"labels_path"     : "output/flowers_17/vgg16/vgg16_labels.h5",
+	"results"         : "output/flowers_17/vgg16/clf_results.txt",
+	"classifier_path" : "output/flowers_17/vgg16/clf.pickle",
+	"model_path"	  : "output/flowers_17/vgg16/vgg16_model",
+
+	"test_size"       : 0.10,
+	"seed"            : 9,
+	"num_classes"     : 12
+}
